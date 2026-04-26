@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    text-align: center;
+}
+
+#img-main {
+    margin: 20px 0 47px;
+}
+
+p {
+    color: white;
+}
+
+#inputs {
+    display: block;
+    margin-top: 2px;
+}
+
+#input-left, #input-right, #button-sortear {
+    border-radius: 6px;
+    width: 160px;
+    height: 26px;
+    border: none;
+}
+
+#resultado {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px;
+    color: white;
+}
+
+#input-left:hover, #input-right:hover {
+    border: 1px solid rgb(118, 184, 19);
+}
+
+#button-sortear {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#button-sortear:hover {
+    opacity: 0.9;
+}
+
+#button-sortear:active {
+    opacity: 0.8;
+}
