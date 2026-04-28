@@ -20,4 +20,5 @@ buttonSortear.onclick = () => {
 
     const numeroAleatorio = Math.floor(Math.random() * (max - min + 1)) + min;
     resultadoSortear.textContent = numeroAleatorio;
+    resultado2.textContent = "";
 }
