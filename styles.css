@@ -43,13 +43,19 @@ p {
     color: white;
 }
 
+#resultado-2 {
+    height: 15px;
+    margin: 1px auto;
+    font-size: 12px
+}
+
 #input-left:hover, #input-right:hover {
     border: 1px solid rgb(118, 184, 19);
 }
 
 #button-sortear {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 3px;
     background-color: greenyellow;
     cursor: pointer;
 }
